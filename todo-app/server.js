@@ -18,8 +18,6 @@ routes(app);
 //   res.status(404).send({url: req.originalUrl + ' not found'})
 // });
 
-//test
-
 app.listen(port);
 
 console.log('todo list RESTful API server started on: ' + port);
