@@ -3,8 +3,6 @@
 var mongoose = require('mongoose'),
   Task = mongoose.model('Tasks');
 
-//test git
-
 //test
 exports.list_all_tasks = function(req, res) {
   Task.find({}, function(err, task) {
